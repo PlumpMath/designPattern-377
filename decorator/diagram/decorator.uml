@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="127.0" y="162.0">BigTourserPerson</node>
+    <node x="0.0" y="238.0">Run</node>
+    <node x="0.0" y="162.0">TShirtPerson</node>
+    <node x="70.75" y="81.0">FineryPerson</node>
+    <node x="87.75" y="0.0">Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TShirtPerson" target="FineryPerson">
+      <point x="0.0" y="-15.5" />
+      <point x="53.5" y="137.0" />
+      <point x="97.75" y="137.0" />
+      <point x="-27.0" y="15.5" />
+    </edge>
+    <edge source="FineryPerson" target="Person">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="BigTourserPerson" target="FineryPerson">
+      <point x="0.0" y="-15.5" />
+      <point x="196.0" y="137.0" />
+      <point x="151.75" y="137.0" />
+      <point x="27.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8293768545994066" x="324.5" y="327.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="133.0" y="0.0">Operator</node>
+    <node x="266.0" y="104.0">AddOperator</node>
+    <node x="0.0" y="104.0">MinusOperator</node>
+    <node x="161.0" y="208.0">OperationFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OperationFactory" target="MinusOperator">
+      <point x="-47.5" y="-27.0" />
+      <point x="208.5" y="183.0" />
+      <point x="123.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="OperationFactory" target="AddOperator">
+      <point x="47.5" y="-27.0" />
+      <point x="303.5" y="183.0" />
+      <point x="389.0" y="183.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="MinusOperator" target="Operator">
+      <point x="0.0" y="-27.0" />
+      <point x="123.0" y="79.0" />
+      <point x="194.5" y="79.0" />
+      <point x="-61.5" y="27.0" />
+    </edge>
+    <edge source="AddOperator" target="Operator">
+      <point x="0.0" y="-27.0" />
+      <point x="389.0" y="79.0" />
+      <point x="317.5" y="79.0" />
+      <point x="61.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="256.0" y="131.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
