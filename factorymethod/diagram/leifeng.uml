@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>leifeng</OriginalElement>
+  <nodes>
+    <node x="126.75" y="0.0">leifeng.IFactory</node>
+    <node x="85.75" y="157.0">leifeng.LeiFeng</node>
+    <node x="143.0" y="238.0">leifeng.Volunteer</node>
+    <node x="185.0" y="81.0">leifeng.VolunteerFactory</node>
+    <node x="0.0" y="81.0">leifeng.UndergraduateFactory</node>
+    <node x="0.0" y="314.0">leifeng.Main</node>
+    <node x="0.0" y="238.0">leifeng.Undergraduate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="leifeng.VolunteerFactory" target="leifeng.IFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="251.0" y="56.0" />
+      <point x="186.75" y="56.0" />
+      <point x="20.0" y="15.5" />
+    </edge>
+    <edge source="leifeng.Undergraduate" target="leifeng.LeiFeng">
+      <point x="0.0" y="-15.5" />
+      <point x="61.5" y="213.0" />
+      <point x="105.25" y="213.0" />
+      <point x="-19.5" y="15.5" />
+    </edge>
+    <edge source="leifeng.UndergraduateFactory" target="leifeng.IFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="82.5" y="56.0" />
+      <point x="146.75" y="56.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="leifeng.Volunteer" target="leifeng.LeiFeng">
+      <point x="0.0" y="-15.5" />
+      <point x="188.0" y="213.0" />
+      <point x="144.25" y="213.0" />
+      <point x="19.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.5" y="172.5" />
+  <SelectedNodes>
+    <node>leifeng.UndergraduateFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

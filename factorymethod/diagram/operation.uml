@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>operation</OriginalElement>
+  <nodes>
+    <node x="276.0" y="157.0">operation.Main</node>
+    <node x="143.0" y="81.0">operation.AddOperator</node>
+    <node x="131.0" y="238.0">operation.AddFactory</node>
+    <node x="86.25" y="0.0">operation.Operator</node>
+    <node x="0.0" y="238.0">operation.MinusFactory</node>
+    <node x="0.0" y="81.0">operation.MinusOperator</node>
+    <node x="78.25" y="157.0">operation.IFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="operation.AddOperator" target="operation.Operator">
+      <point x="0.0" y="-15.5" />
+      <point x="199.0" y="56.0" />
+      <point x="152.25" y="56.0" />
+      <point x="22.0" y="15.5" />
+    </edge>
+    <edge source="operation.MinusOperator" target="operation.Operator">
+      <point x="0.0" y="-15.5" />
+      <point x="61.5" y="56.0" />
+      <point x="108.25" y="56.0" />
+      <point x="-22.0" y="15.5" />
+    </edge>
+    <edge source="operation.AddFactory" target="operation.IFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="181.0" y="213.0" />
+      <point x="138.25" y="213.0" />
+      <point x="20.0" y="15.5" />
+    </edge>
+    <edge source="operation.MinusFactory" target="operation.IFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="55.5" y="213.0" />
+      <point x="98.25" y="213.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="169.5" y="134.5" />
+  <SelectedNodes>
+    <node>operation.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
