@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>deep</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">deep.WorkExperience</node>
+    <node x="0.0" y="152.0">deep.Main</node>
+    <node x="0.0" y="76.0">deep.Resume</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="64.5" y="91.5" />
+  <SelectedNodes>
+    <node>deep.WorkExperience</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

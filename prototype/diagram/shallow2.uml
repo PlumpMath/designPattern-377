@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>shallow2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">shallow2.WorkExperience</node>
+    <node x="0.0" y="152.0">shallow2.Main</node>
+    <node x="0.0" y="76.0">shallow2.Resume</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="64.5" y="91.5" />
+  <SelectedNodes>
+    <node>shallow2.WorkExperience</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
