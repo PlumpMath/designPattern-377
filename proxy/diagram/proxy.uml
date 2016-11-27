@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>actualproxy</OriginalElement>
+  <nodes>
+    <node x="39.25" y="0.0">actualproxy.IGiveGift</node>
+    <node x="0.0" y="157.0">actualproxy.Main</node>
+    <node x="86.0" y="81.0">actualproxy.Pursuiter</node>
+    <node x="0.0" y="81.0">actualproxy.Proxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="actualproxy.Main" target="actualproxy.Proxy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="actualproxy.Pursuiter" target="actualproxy.IGiveGift">
+      <point x="0.0" y="-15.5" />
+      <point x="128.5" y="56.0" />
+      <point x="101.5" y="56.0" />
+      <point x="20.75" y="15.5" />
+    </edge>
+    <edge source="actualproxy.Proxy" target="actualproxy.IGiveGift">
+      <point x="0.0" y="-15.5" />
+      <point x="33.0" y="56.0" />
+      <point x="60.0" y="56.0" />
+      <point x="-20.75" y="15.5" />
+    </edge>
+    <edge source="actualproxy.Proxy" target="actualproxy.Pursuiter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="85.5" y="94.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
