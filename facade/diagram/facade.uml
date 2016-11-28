@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Fund</OriginalElement>
+  <nodes>
+    <node x="108.0" y="152.0">Fund</node>
+    <node x="0.0" y="76.0">Realty</node>
+    <node x="0.0" y="0.0">NationalDebt</node>
+    <node x="0.0" y="152.0">Main</node>
+    <node x="114.0" y="76.0">Stock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Fund">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fund" target="Realty">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fund" target="Stock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Fund" target="NationalDebt">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="90.0" y="91.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
