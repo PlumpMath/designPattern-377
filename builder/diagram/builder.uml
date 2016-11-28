@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Builder</OriginalElement>
+  <nodes>
+    <node x="154.0" y="81.0">ConcreteBuilder1</node>
+    <node x="0.0" y="81.0">ConcreteBuilder2</node>
+    <node x="106.5" y="0.0">Builder</node>
+    <node x="0.0" y="157.0">Director</node>
+    <node x="126.0" y="157.0">Product</node>
+    <node x="0.0" y="233.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ConcreteBuilder2" target="Builder">
+      <point x="0.0" y="-15.5" />
+      <point x="67.0" y="56.0" />
+      <point x="125.25" y="56.0" />
+      <point x="-18.75" y="15.5" />
+    </edge>
+    <edge source="Main" target="ConcreteBuilder1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="ConcreteBuilder2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ConcreteBuilder2" target="Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Director">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ConcreteBuilder1" target="Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ConcreteBuilder1" target="Builder">
+      <point x="0.0" y="-15.5" />
+      <point x="221.0" y="56.0" />
+      <point x="162.75" y="56.0" />
+      <point x="18.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="144.0" y="132.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
