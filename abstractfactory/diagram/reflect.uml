@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>reflect</OriginalElement>
+  <nodes>
+    <node x="229.0" y="314.0">reflect.DataAccess</node>
+    <node x="88.75" y="157.0">common.IUser</node>
+    <node x="177.0" y="81.0">common.AccessDepartment</node>
+    <node x="0.0" y="81.0">common.SqlserverDepartment</node>
+    <node x="135.0" y="238.0">common.AccessUser</node>
+    <node x="0.0" y="238.0">common.SqlserverUser</node>
+    <node x="123.0" y="314.0">common.User</node>
+    <node x="109.75" y="0.0">common.IDepartment</node>
+    <node x="71.0" y="395.0">reflect.Main</node>
+    <node x="0.0" y="314.0">common.Department</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="common.SqlserverUser" target="common.IUser">
+      <point x="0.0" y="-15.5" />
+      <point x="57.5" y="213.0" />
+      <point x="105.0" y="213.0" />
+      <point x="-16.25" y="15.5" />
+    </edge>
+    <edge source="common.SqlserverDepartment" target="common.IDepartment">
+      <point x="0.0" y="-15.5" />
+      <point x="78.5" y="56.0" />
+      <point x="136.5" y="56.0" />
+      <point x="-26.75" y="15.5" />
+    </edge>
+    <edge source="reflect.Main" target="common.User">
+      <point x="15.75" y="-15.5" />
+      <point x="118.25" y="370.0" />
+      <point x="153.5" y="370.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="common.AccessDepartment" target="common.IDepartment">
+      <point x="0.0" y="-15.5" />
+      <point x="248.0" y="56.0" />
+      <point x="190.0" y="56.0" />
+      <point x="26.75" y="15.5" />
+    </edge>
+    <edge source="reflect.Main" target="common.Department">
+      <point x="-15.75" y="-15.5" />
+      <point x="86.75" y="370.0" />
+      <point x="51.5" y="370.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="common.AccessUser" target="common.IUser">
+      <point x="0.0" y="-15.5" />
+      <point x="185.0" y="213.0" />
+      <point x="137.5" y="213.0" />
+      <point x="16.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="164.5" y="213.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
