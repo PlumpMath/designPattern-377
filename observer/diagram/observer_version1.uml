@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>version1</OriginalElement>
+  <nodes>
+    <node x="298.0" y="157.0">version1.Main</node>
+    <node x="82.5" y="0.0">version1.Subject</node>
+    <node x="124.0" y="81.0">version1.SecretarySubject</node>
+    <node x="133.0" y="238.0">version1.StockObserver</node>
+    <node x="0.0" y="238.0">version1.NbaObserver</node>
+    <node x="0.0" y="81.0">version1.BossSubject</node>
+    <node x="80.75" y="157.0">version1.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="version1.StockObserver" target="version1.Observer">
+      <point x="0.0" y="-15.5" />
+      <point x="193.0" y="213.0" />
+      <point x="146.75" y="213.0" />
+      <point x="22.0" y="15.5" />
+    </edge>
+    <edge source="version1.SecretarySubject" target="version1.Subject">
+      <point x="0.0" y="-15.5" />
+      <point x="189.0" y="56.0" />
+      <point x="139.5" y="56.0" />
+      <point x="19.0" y="15.5" />
+    </edge>
+    <edge source="version1.Main" target="version1.BossSubject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="version1.NbaObserver" target="version1.Observer">
+      <point x="0.0" y="-15.5" />
+      <point x="56.5" y="213.0" />
+      <point x="102.75" y="213.0" />
+      <point x="-22.0" y="15.5" />
+    </edge>
+    <edge source="version1.SecretarySubject" target="version1.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="version1.Main" target="version1.NbaObserver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="version1.Main" target="version1.StockObserver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="version1.BossSubject" target="version1.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="version1.BossSubject" target="version1.Subject">
+      <point x="0.0" y="-15.5" />
+      <point x="52.0" y="56.0" />
+      <point x="101.5" y="56.0" />
+      <point x="-19.0" y="15.5" />
+    </edge>
+    <edge source="version1.Observer" target="version1.Subject">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="134.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
