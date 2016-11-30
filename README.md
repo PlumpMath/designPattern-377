@@ -16,3 +16,4 @@
 - 第15章 就不能不换DB吗？——抽象工厂模式（[abstractfactory](https://github.com/cle009/designPattern/tree/master/abstractfactory)）
 - 第16章 无尽加班何时休——状态模式（[state](https://github.com/cle009/designPattern/tree/master/state)）
 - 第17章 在NBA我需要翻译——适配器模式（[adapter](https://github.com/cle009/designPattern/tree/master/adapter)）
+- 第18章 如果再回到从前——备忘录模式（[memento](https://github.com/cle009/designPattern/tree/master/memento)）
