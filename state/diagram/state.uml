@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AfternoonSate</OriginalElement>
+  <nodes>
+    <node x="108.0" y="101.0">SleepingState</node>
+    <node x="206.75" y="425.0">ForenoonState</node>
+    <node x="0.0" y="101.0">RestState</node>
+    <node x="226.34895833333337" y="0.0">State</node>
+    <node x="100.43750000000003" y="182.0">EveningState</node>
+    <node x="268.25" y="506.0">Work</node>
+    <node x="189.0" y="344.0">NoonState</node>
+    <node x="269.75" y="587.0">Main</node>
+    <node x="136.93750000000003" y="263.0">AfternoonSate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Work" target="ForenoonState">
+      <point x="-16.5" y="-15.5" />
+      <point x="284.75" y="481.0" />
+      <point x="266.25" y="481.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="EveningState" target="State">
+      <point x="36.0" y="-15.5" />
+      <point x="190.43750000000003" y="157.0" />
+      <point x="231.5" y="157.0" />
+      <point x="231.5" y="71.0" />
+      <point x="248.84895833333337" y="71.0" />
+      <point x="-9.0" y="15.5" />
+    </edge>
+    <edge source="Work" target="State">
+      <point x="16.5" y="-15.5" />
+      <point x="317.75" y="481.0" />
+      <point x="336.25" y="481.0" />
+      <point x="336.25" y="61.0" />
+      <point x="284.84895833333337" y="61.0" />
+      <point x="27.0" y="15.5" />
+    </edge>
+    <edge source="AfternoonSate" target="EveningState">
+      <point x="-29.25" y="-15.5" />
+      <point x="166.18750000000003" y="238.0" />
+      <point x="154.43750000000003" y="238.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ForenoonState" target="NoonState">
+      <point x="-29.75" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Work">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ForenoonState" target="State">
+      <point x="29.75" y="-15.5" />
+      <point x="296.0" y="400.0" />
+      <point x="298.9375" y="400.0" />
+      <point x="298.9375" y="71.0" />
+      <point x="275.84895833333337" y="71.0" />
+      <point x="18.0" y="15.5" />
+    </edge>
+    <edge source="NoonState" target="AfternoonSate">
+      <point x="-24.0" y="-15.5" />
+      <point x="213.0" y="319.0" />
+      <point x="195.43750000000003" y="319.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="RestState" target="State">
+      <point x="0.0" y="-15.5" />
+      <point x="44.0" y="51.0" />
+      <point x="230.84895833333337" y="51.0" />
+      <point x="-27.0" y="15.5" />
+    </edge>
+    <edge source="EveningState" target="SleepingState">
+      <point x="0.0" y="-15.5" />
+      <point x="154.43750000000003" y="157.0" />
+      <point x="164.5" y="157.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="NoonState" target="State">
+      <point x="24.0" y="-15.5" />
+      <point x="261.0" y="319.0" />
+      <point x="274.30208333333337" y="319.0" />
+      <point x="274.30208333333337" y="81.0" />
+      <point x="266.84895833333337" y="81.0" />
+      <point x="9.0" y="15.5" />
+    </edge>
+    <edge source="EveningState" target="RestState">
+      <point x="-36.0" y="-15.5" />
+      <point x="118.43750000000003" y="157.0" />
+      <point x="44.0" y="157.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="AfternoonSate" target="State">
+      <point x="29.25" y="-15.5" />
+      <point x="224.68750000000003" y="238.0" />
+      <point x="243.30208333333334" y="238.0" />
+      <point x="243.30208333333334" y="81.0" />
+      <point x="257.84895833333337" y="81.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="SleepingState" target="State">
+      <point x="0.0" y="-15.5" />
+      <point x="164.5" y="61.0" />
+      <point x="239.84895833333337" y="61.0" />
+      <point x="-18.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8746081504702194" x="168.5" y="309.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
