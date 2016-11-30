@@ -1,4 +1,5 @@
 - 这是《大话设计模式》中每个设计模式中的代码的java版
+- 如果访问速度慢，可以访问在国内的coding.net中的[designPattern](https://git.coding.net/cle/designPattern.git)
 
 ### 目录 ###
 
