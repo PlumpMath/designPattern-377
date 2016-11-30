@@ -14,4 +14,6 @@
 - 第13章 好菜每回味不同——建造者模式（[builder](https://github.com/cle009/designPattern/tree/master/builder)）
 - 第14章 老板回来，我不知道——观察者模式（[observer](https://github.com/cle009/designPattern/tree/master/observer)）
 - 第15章 就不能不换DB吗？——抽象工厂模式（[abstractfactory](https://github.com/cle009/designPattern/tree/master/abstractfactory)）
+- 第16章 无尽加班何时休——状态模式（[state](https://github.com/cle009/designPattern/tree/master/state)）
+
 
