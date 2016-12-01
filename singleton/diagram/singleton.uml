@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BetterSingleton</OriginalElement>
+  <nodes>
+    <node x="168.0" y="228.0">LazySingleton</node>
+    <node x="0.0" y="228.0">BetterSingleton</node>
+    <node x="0.0" y="0.0">DoubleCheckLazySingleton</node>
+    <node x="0.0" y="152.0">HungrySingleton</node>
+    <node x="0.0" y="76.0">MultiThreadLazySingleton</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.5" y="129.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
