@@ -21,3 +21,4 @@
 - 第20章 想走？可以！先买票——迭代器模式（[iterator](https://github.com/cle009/designPattern/tree/master/iterator)）
 - 第21章 有些类也需要计划生育（[singleton](https://github.com/cle009/designPattern/tree/master/singleton)）
 - 第22章 手机软件何时统一——桥接模式（[bridge](https://github.com/cle009/designPattern/tree/master/bridge)）
+- 第23章 烤羊肉串引来的思考——命令模式（[command](https://github.com/cle009/designPattern/tree/master/command)）
