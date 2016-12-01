@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BakeChickenWingCommand</OriginalElement>
+  <nodes>
+    <node x="162.03125" y="0.0">Barbecuer</node>
+    <node x="318.140625" y="81.0">Command</node>
+    <node x="0.0" y="319.0">命令模式</node>
+    <node x="10.5" y="162.0">BakeChickenWingCommand</node>
+    <node x="228.5" y="162.0">BakeMuttonCommand</node>
+    <node x="413.5" y="162.0">Waiter</node>
+    <node x="184.015625" y="243.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Waiter">
+      <point x="23.625" y="-15.5" />
+      <point x="239.140625" y="223.0" />
+      <point x="449.5" y="223.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="BakeChickenWingCommand" target="Command">
+      <point x="0.0" y="-15.5" />
+      <point x="109.5" y="132.0" />
+      <point x="329.890625" y="132.0" />
+      <point x="-35.25" y="15.5" />
+    </edge>
+    <edge source="BakeMuttonCommand" target="Command">
+      <point x="0.0" y="-15.5" />
+      <point x="311.0" y="142.0" />
+      <point x="353.390625" y="142.0" />
+      <point x="-11.75" y="15.5" />
+    </edge>
+    <edge source="Waiter" target="Command">
+      <point x="-18.0" y="-15.5" />
+      <point x="431.5" y="142.0" />
+      <point x="376.890625" y="142.0" />
+      <point x="11.75" y="15.5" />
+    </edge>
+    <edge source="Command" target="Barbecuer">
+      <point x="0.0" y="-15.5" />
+      <point x="365.140625" y="56.0" />
+      <point x="232.53125" y="56.0" />
+      <point x="23.5" y="15.5" />
+    </edge>
+    <edge source="Main" target="BakeMuttonCommand">
+      <point x="7.875" y="-15.5" />
+      <point x="223.390625" y="213.0" />
+      <point x="311.0" y="213.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Barbecuer">
+      <point x="-23.625" y="-15.5" />
+      <point x="191.890625" y="223.0" />
+      <point x="0.0" y="223.0" />
+      <point x="0.0" y="56.0" />
+      <point x="185.53125" y="56.0" />
+      <point x="-23.5" y="15.5" />
+    </edge>
+    <edge source="Main" target="BakeChickenWingCommand">
+      <point x="-7.875" y="-15.5" />
+      <point x="207.640625" y="213.0" />
+      <point x="109.5" y="213.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="243.0" y="175.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
