@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Center</OriginalElement>
+  <nodes>
+    <node x="0.0" y="157.0">ForeignCenter</node>
+    <node x="159.25" y="0.0">Player</node>
+    <node x="209.0" y="81.0">Center</node>
+    <node x="96.0" y="81.0">Translator</node>
+    <node x="301.0" y="81.0">Forwards</node>
+    <node x="0.0" y="81.0">Guards</node>
+    <node x="0.0" y="233.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Translator" target="Player">
+      <point x="0.0" y="-15.5" />
+      <point x="142.5" y="61.0" />
+      <point x="185.125" y="61.0" />
+      <point x="-8.625" y="15.5" />
+    </edge>
+    <edge source="Guards" target="Player">
+      <point x="0.0" y="-15.5" />
+      <point x="38.0" y="51.0" />
+      <point x="167.875" y="51.0" />
+      <point x="-25.875" y="15.5" />
+    </edge>
+    <edge source="Forwards" target="Player">
+      <point x="0.0" y="-15.5" />
+      <point x="345.0" y="51.0" />
+      <point x="219.625" y="51.0" />
+      <point x="25.875" y="15.5" />
+    </edge>
+    <edge source="Center" target="Player">
+      <point x="0.0" y="-15.5" />
+      <point x="245.0" y="61.0" />
+      <point x="202.375" y="61.0" />
+      <point x="8.625" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.5" y="132.0" />
+  <SelectedNodes>
+    <node>Center</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
