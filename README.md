@@ -17,3 +17,4 @@
 - 第16章 无尽加班何时休——状态模式（[state](https://github.com/cle009/designPattern/tree/master/state)）
 - 第17章 在NBA我需要翻译——适配器模式（[adapter](https://github.com/cle009/designPattern/tree/master/adapter)）
 - 第18章 如果再回到从前——备忘录模式（[memento](https://github.com/cle009/designPattern/tree/master/memento)）
+- 第19章 分公司=一部门——组合模式（[composite](https://github.com/cle009/designPattern/tree/master/composite)）
