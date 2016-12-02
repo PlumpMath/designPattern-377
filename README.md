@@ -3,7 +3,7 @@
 
 ### 目录 ###
 
-- 第1章 代码无措就是优？——简单工厂模式（[simpleFactory](https://github.com/cle009/designPattern/tree/master/simpleFactory)）
+- 第1章 代码无措就是优？——简单工厂模式（[simplefactory](https://github.com/cle009/designPattern/tree/master/simplefactory)）
 - 第2章 商场促销——策略模式（[strategy](https://github.com/cle009/designPattern/tree/master/strategy)）
 - 第6章 穿什么有这么重要？——装饰模式（[decorator](https://github.com/cle009/designPattern/tree/master/decorator)）
 - 第7章 为别人做嫁衣——代理模式（[proxy](https://github.com/cle009/designPattern/tree/master/proxy)）
