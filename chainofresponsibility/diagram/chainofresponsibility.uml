@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CommonManager</OriginalElement>
+  <nodes>
+    <node x="177.0" y="81.0">GeneralManager</node>
+    <node x="329.0" y="81.0">CommonManager</node>
+    <node x="0.0" y="157.0">Request</node>
+    <node x="199.5" y="0.0">Manager</node>
+    <node x="126.0" y="157.0">Main</node>
+    <node x="0.0" y="81.0">MajordomoManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GeneralManager" target="Manager">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="MajordomoManager" target="Manager">
+      <point x="0.0" y="-15.5" />
+      <point x="78.5" y="56.0" />
+      <point x="214.0" y="56.0" />
+      <point x="-29.0" y="15.5" />
+    </edge>
+    <edge source="CommonManager" target="Manager">
+      <point x="0.0" y="-15.5" />
+      <point x="399.0" y="56.0" />
+      <point x="272.0" y="56.0" />
+      <point x="29.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="234.5" y="94.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
