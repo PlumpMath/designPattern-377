@@ -19,7 +19,7 @@
 - 第18章 如果再回到从前——备忘录模式（[memento](https://github.com/cle009/designPattern/tree/master/memento)）
 - 第19章 分公司=一部门——组合模式（[composite](https://github.com/cle009/designPattern/tree/master/composite)）
 - 第20章 想走？可以！先买票——迭代器模式（[iterator](https://github.com/cle009/designPattern/tree/master/iterator)）
-- 第21章 有些类也需要计划生育（[singleton](https://github.com/cle009/designPattern/tree/master/singleton)）
+- 第21章 有些类也需要计划生育——单例模式（[singleton](https://github.com/cle009/designPattern/tree/master/singleton)）
 - 第22章 手机软件何时统一——桥接模式（[bridge](https://github.com/cle009/designPattern/tree/master/bridge)）
 - 第23章 烤羊肉串引来的思考——命令模式（[command](https://github.com/cle009/designPattern/tree/master/command)）
 - 第24章 加薪非要老总批？——职责链模式（[chainofresponsibility](https://github.com/cle009/designPattern/tree/master/chainofresponsibility)）
