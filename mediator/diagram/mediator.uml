@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Country</OriginalElement>
+  <nodes>
+    <node x="221.5625" y="162.0">USA</node>
+    <node x="189.70000000000002" y="81.0">Country</node>
+    <node x="103.35000000000001" y="0.0">UnitedNations</node>
+    <node x="143.5625" y="162.0">Iraq</node>
+    <node x="177.22500000000002" y="324.0">Main</node>
+    <node x="0.0" y="243.0">UnitedNationsSecurityCouncil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="USA" target="Country">
+      <point x="0.0" y="-15.5" />
+      <point x="250.5625" y="137.0" />
+      <point x="248.95000000000002" y="137.0" />
+      <point x="19.75" y="15.5" />
+    </edge>
+    <edge source="Iraq" target="Country">
+      <point x="0.0" y="-15.5" />
+      <point x="172.5625" y="137.0" />
+      <point x="209.45000000000002" y="137.0" />
+      <point x="-19.75" y="15.5" />
+    </edge>
+    <edge source="UnitedNationsSecurityCouncil" target="UnitedNations">
+      <point x="-68.0" y="-15.5" />
+      <point x="34.0" y="223.0" />
+      <point x="77.16250000000002" y="223.0" />
+      <point x="77.16250000000002" y="56.0" />
+      <point x="132.60000000000002" y="56.0" />
+      <point x="-29.25" y="15.5" />
+    </edge>
+    <edge source="UnitedNationsSecurityCouncil" target="Iraq">
+      <point x="0.0" y="-15.5" />
+      <point x="102.0" y="223.0" />
+      <point x="158.0625" y="223.0" />
+      <point x="-14.5" y="15.5" />
+    </edge>
+    <edge source="Main" target="USA">
+      <point x="21.0" y="-15.5" />
+      <point x="229.72500000000002" y="299.0" />
+      <point x="265.0625" y="299.0" />
+      <point x="14.5" y="15.5" />
+    </edge>
+    <edge source="Main" target="Iraq">
+      <point x="0.0" y="-15.5" />
+      <point x="208.72500000000002" y="299.0" />
+      <point x="214.5" y="299.0" />
+      <point x="214.5" y="213.0" />
+      <point x="187.0625" y="213.0" />
+      <point x="14.5" y="15.5" />
+    </edge>
+    <edge source="Country" target="UnitedNations">
+      <point x="0.0" y="-15.5" />
+      <point x="229.20000000000002" y="56.0" />
+      <point x="191.10000000000002" y="56.0" />
+      <point x="29.25" y="15.5" />
+    </edge>
+    <edge source="Main" target="UnitedNationsSecurityCouncil">
+      <point x="-21.0" y="-15.5" />
+      <point x="187.72500000000002" y="299.0" />
+      <point x="102.0" y="299.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="UnitedNationsSecurityCouncil" target="USA">
+      <point x="68.0" y="-15.5" />
+      <point x="170.0" y="223.0" />
+      <point x="236.0625" y="223.0" />
+      <point x="-14.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="146.0" y="177.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
