@@ -22,3 +22,4 @@
 - 第21章 有些类也需要计划生育（[singleton](https://github.com/cle009/designPattern/tree/master/singleton)）
 - 第22章 手机软件何时统一——桥接模式（[bridge](https://github.com/cle009/designPattern/tree/master/bridge)）
 - 第23章 烤羊肉串引来的思考——命令模式（[command](https://github.com/cle009/designPattern/tree/master/command)）
+- 第24章 加薪非要老总批？——职责链模式（[chainofresponsibility](https://github.com/cle009/designPattern/tree/master/chainofresponsibility)）
