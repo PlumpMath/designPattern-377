@@ -24,3 +24,4 @@
 - 第23章 烤羊肉串引来的思考——命令模式（[command](https://github.com/cle009/designPattern/tree/master/command)）
 - 第24章 加薪非要老总批？——职责链模式（[chainofresponsibility](https://github.com/cle009/designPattern/tree/master/chainofresponsibility)）
 - 第25章 世界需要和平——中介者模式（[mediator](https://github.com/cle009/designPattern/tree/master/mediator)）
+- 第26章 项目多也别傻做——享元模式（[flyweight](https://github.com/cle009/designPattern/tree/master/flyweight)）
