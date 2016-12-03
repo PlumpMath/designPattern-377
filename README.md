@@ -26,3 +26,4 @@
 - 第25章 世界需要和平——中介者模式（[mediator](https://github.com/cle009/designPattern/tree/master/mediator)）
 - 第26章 项目多也别傻做——享元模式（[flyweight](https://github.com/cle009/designPattern/tree/master/flyweight)）
 - 第27章 其实你不懂老板的心——解释器模式（[interpreter](https://github.com/cle009/designPattern/tree/master/interpreter)）
+- 第28章 男人和女人——访问者模式（[visitor](https://github.com/cle009/designPattern/tree/master/visitor)）
