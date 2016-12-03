@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Action</OriginalElement>
+  <nodes>
+    <node x="422.0" y="81.0">Failing</node>
+    <node x="476.6" y="0.0">Action</node>
+    <node x="513.0" y="81.0">Amativeness</node>
+    <node x="99.0" y="81.0">Man</node>
+    <node x="0.0" y="81.0">Woman</node>
+    <node x="639.0" y="81.0">Marriage</node>
+    <node x="331.0" y="172.0">Main</node>
+    <node x="132.35" y="0.0">Person</node>
+    <node x="323.0" y="81.0">Success</node>
+    <node x="179.0" y="81.0">ObjectStructure</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Woman">
+      <point x="-27.0" y="-15.5" />
+      <point x="335.5" y="152.0" />
+      <point x="39.5" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="ObjectStructure" target="Person">
+      <point x="-31.0" y="-15.5" />
+      <point x="210.0" y="61.0" />
+      <point x="178.6" y="61.0" />
+      <point x="9.25" y="15.5" />
+    </edge>
+    <edge source="Failing" target="Action">
+      <point x="0.0" y="-15.5" />
+      <point x="457.5" y="61.0" />
+      <point x="502.85" y="61.0" />
+      <point x="-8.75" y="15.5" />
+    </edge>
+    <edge source="Main" target="Man">
+      <point x="-18.0" y="-15.5" />
+      <point x="344.5" y="142.0" />
+      <point x="129.0" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Marriage">
+      <point x="27.0" y="-15.5" />
+      <point x="389.5" y="152.0" />
+      <point x="683.0" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Amativeness" target="Action">
+      <point x="0.0" y="-15.5" />
+      <point x="566.0" y="61.0" />
+      <point x="520.35" y="61.0" />
+      <point x="8.75" y="15.5" />
+    </edge>
+    <edge source="Main" target="Success">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Success" target="Action">
+      <point x="0.0" y="-15.5" />
+      <point x="362.5" y="51.0" />
+      <point x="485.35" y="51.0" />
+      <point x="-26.25" y="15.5" />
+    </edge>
+    <edge source="Marriage" target="Action">
+      <point x="0.0" y="-15.5" />
+      <point x="683.0" y="51.0" />
+      <point x="537.85" y="51.0" />
+      <point x="26.25" y="15.5" />
+    </edge>
+    <edge source="Main" target="Amativeness">
+      <point x="18.0" y="-15.5" />
+      <point x="380.5" y="142.0" />
+      <point x="566.0" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Failing">
+      <point x="9.0" y="-15.5" />
+      <point x="371.5" y="132.0" />
+      <point x="457.5" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Man" target="Person">
+      <point x="0.0" y="-15.5" />
+      <point x="129.0" y="61.0" />
+      <point x="160.1" y="61.0" />
+      <point x="-9.25" y="15.5" />
+    </edge>
+    <edge source="Main" target="ObjectStructure">
+      <point x="-9.0" y="-15.5" />
+      <point x="353.5" y="132.0" />
+      <point x="241.0" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Woman" target="Person">
+      <point x="0.0" y="-15.5" />
+      <point x="39.5" y="51.0" />
+      <point x="141.6" y="51.0" />
+      <point x="-27.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="363.5" y="101.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
